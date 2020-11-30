@@ -29,8 +29,7 @@ img {
     max-width: 100%;
     display: block;
 }
-.contenedor {
-    width: 900px;
+.contenedor{
     margin: 0 auto;
 }
 /* Utilidades */
@@ -124,7 +123,8 @@ img {
 
 .about-dham h2 {
     font-size: 28px;
-    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 .about-dham p {
@@ -137,7 +137,7 @@ img {
     height: 600px;
     background-color: var(--colo-bg);
     display: flex;
-    margin: 10px auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
