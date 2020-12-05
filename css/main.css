@@ -11,6 +11,7 @@
     --color-blue4: #dee4ff;
     --color-blue5: #5163b3;
 }
+
 *,
 *::before,
 *::after {
@@ -27,7 +28,7 @@ html {
 body {
     font-weight: 500;
     font-family: var(--font-Spinnaker);
-    background-color: var(--color-white);
+    background-color: var(--color-blue1);
 }
 
 img {
@@ -52,6 +53,10 @@ img {
 
 .wd-75 {
     width: 75%;
+}
+
+.nth {
+    border-bottom: 0;
 }
 
 /* Header */
@@ -81,7 +86,7 @@ img {
     color: #fff;
     font-size: 1.8rem;
 }
-.header-navbar a:hover {
+.header-navbar li a:hover {
     border-bottom: 2px solid var(--color-secondary);
 }
 .isSelected {
@@ -104,18 +109,19 @@ img {
 .header-contenido {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
     background-color: var(--color-blue1);
-    padding: 0 120px;
 }
 
 .header-contenido img {
-    width: 450px;
+    width: 550px;
+    margin-right: 120px;
 }
 
 .header-texto {
     color: var(--color-white);
+    margin-left: 120px;
 }
 .header-texto h1 {
     font-size: 10rem;
@@ -127,12 +133,15 @@ img {
 }
 
 /**Main**/
+
+/** About Dham **/
 .about-dham {
     background-color: var(--color-blue2);
     text-align: center;
 }
 .about-dham img {
-    width: 450px;
+    max-width: 450px;
+    max-height: 600px;
 }
 
 .about-dham h2 {
@@ -150,13 +159,15 @@ img {
     color: var(--color-white);
 }
 
+/** Porque Dham **/
 .porque-dham {
     background-color: var(--color-blue3);
     text-align: center;
 }
 
 .porque-dham img {
-    width: 450px;
+    max-width: 450px;
+    max-height: 600px;
 }
 
 .porque-dham h2 {
@@ -175,12 +186,12 @@ img {
 }
 /* Form Tell Us */
 .form-dham {
-    height: 600px;
     background-color: var(--color-blue4);
-    display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    padding: 120px 0;
+    display: flex;
 }
 
 .form-dham h2 {
@@ -244,7 +255,7 @@ footer {
 }
 
 .contenido-footer {
-    background-color: #f0f1fa;
+    background-color: var(--color-blue5);
     width: 100%;
     display: flex;
     align-items: center;
