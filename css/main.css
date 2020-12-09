@@ -1,15 +1,14 @@
 /**Variables**/
 :root {
-    --color-primary: #35a3c4;
-    --color-secondary: #ff8800;
-    --color-white: #fff8f5;
+    --color-primary: #ffffff;
+    --color-secondary: #000000;
+    --color-text: #fffcfa;
+    --color-alternativeOne: #f2f2f2;
+    --color-hover: #e07a5f;
     --font-Spinnaker: "Spinnaker", sans-serif;
     --font-Sacramento: "Sacramento", cursive;
-    --color-blue1: #273369;
-    --color-blue2: #7984b5;
-    --color-blue3: #8290d1;
-    --color-blue4: #dee4ff;
-    --color-blue5: #5163b3;
+    --font-titulos: "Futura", sans-serif;
+    --font-contenidos: "Proxima Nova", sans-serif;
 }
 
 *,
@@ -28,7 +27,7 @@ html {
 body {
     font-weight: 500;
     font-family: var(--font-Spinnaker);
-    background-color: var(--color-blue1);
+    background-color: var(--color-primary);
 }
 
 img {
@@ -55,135 +54,215 @@ img {
     width: 75%;
 }
 
-.nth {
-    border-bottom: 0;
+/* Header */
+header {
+    /* background-color: var(--color-secondary); */
+    background-image: url(../img/bg-black.jpg);
 }
 
-/* Header */
 .header-navbar {
-    background-color: var(--color-blue1);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
 }
+
 .header-navbar img {
     max-width: 100px;
 }
+
 .header-navbar ul {
     display: flex;
 }
+
 .header-navbar li {
     list-style: none;
     margin-right: 80px;
 }
+
 .header-navbar li:last-child {
     margin-right: 0;
 }
+
 .header-navbar a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-primary);
     font-size: 1.8rem;
 }
+
 .header-navbar li a:hover {
-    border-bottom: 2px solid var(--color-secondary);
+    color: var(--color-hover);
 }
+
 .isSelected {
-    border-bottom: 2px solid var(--color-secondary);
+    color: var(--color-hover);
 }
-.header-texto h1 {
-    font-family: var(--font-Sacramento);
-    font-size: 80px;
-}
+
 .info-contact {
     display: flex;
 }
+
 .info-contact img {
     margin-right: 30px;
 }
+
 .info-contact img:last-child {
     margin-right: 0;
 }
-/***Hero***/
+
 .header-contenido {
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
-    background-color: var(--color-blue1);
+    grid-template-columns: 1fr 1fr;
 }
 
 .header-contenido img {
-    width: 550px;
-    margin-right: 120px;
+    width: 650px;
+    justify-self: center;
 }
 
 .header-texto {
-    color: var(--color-white);
-    margin-left: 120px;
+    color: var(--color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
+
 .header-texto h1 {
-    font-size: 10rem;
+    font-size: 120px;
     font-weight: 400;
+    font-family: var(--font-Sacramento);
 }
+
 .header-texto h3 {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 30px;
 }
 
-/**Main**/
+.header-texto a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    border: 5px;
+    padding: 20px;
+    align-self: center;
+    margin-top: 80px;
+    font-size: 15px;
+}
 
-/** About Dham **/
+/** Un poco de Dham **/
 .about-dham {
-    background-color: var(--color-blue2);
-    text-align: center;
+    padding: 120px 0;
+    width: 85%;
+    margin: 0 auto;
 }
 .about-dham img {
-    max-width: 450px;
-    max-height: 600px;
+    width: 550px;
 }
 
-.about-dham h2 {
-    font-size: 28px;
+.about-img {
+    background-image: url(../img/bg-white.jpg);
+    width: 40%;
+}
+
+.texto-about {
+    justify-self: flex-start;
+}
+
+.texto-about h2 {
+    font-size: 40px;
     text-align: center;
-    padding: 20px;
     color: var(--color-white);
-    padding: 40px 0;
+    margin-top: 40px;
 }
 
-.about-dham p {
-    line-height: 5rem;
-    margin-bottom: 40px;
+.texto-about p {
+    line-height: 2;
     font-size: 16px;
-    color: var(--color-white);
+    text-align: center;
+    margin: 20px 0;
 }
 
-/** Porque Dham **/
+.info-box p {
+    text-align: left;
+}
+
+.contenido-about {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: var(--color-alternativeOne);
+}
+
+.info-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid #000;
+    column-gap: 40px;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.info-box h3 {
+    font-size: 24px;
+}
+
+/** Porque entrenar conmigo? **/
 .porque-dham {
-    background-color: var(--color-blue3);
-    text-align: center;
+    color: var(--color-primary);
 }
 
-.porque-dham img {
-    max-width: 450px;
-    max-height: 600px;
+.porque-contenido {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    background-color: #000;
 }
 
-.porque-dham h2 {
-    font-size: 28px;
-    text-align: center;
-    padding: 20px;
-    color: var(--color-white);
-    padding: 40px 0;
+.porque-texto {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+    padding: 120px 80px;
 }
 
-.porque-dham p {
-    line-height: 5rem;
+.porque-texto h2 {
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.porque-texto p {
+    line-height: 2;
     margin-bottom: 40px;
     font-size: 16px;
-    color: var(--color-white);
 }
+
+.porque-texto a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    border: 5px;
+    padding: 15px 40px;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.porque-contenido img {
+    width: 550px;
+}
+
+.porque-img {
+    background-image: url(../img/bg-rose.jpg);
+    width: 60%;
+}
+
 /* Form Tell Us */
 .form-dham {
     background-color: var(--color-blue4);
@@ -252,6 +331,8 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
 
 .contenido-footer {
