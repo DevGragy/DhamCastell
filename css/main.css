@@ -61,39 +61,24 @@ h5 {
 .wd-75 {
     width: 75%;
 }
-<<<<<<< HEAD
-.btn-orng{
-
-=======
-
 .btn-orng {
->>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
     padding: 15px 20px;
     border-radius: 5px;
     color: var(--color-secondary);
     background-color: var(--color-primary);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
 .btn-orng:hover {
     background-color: var(--color-hover);
     transition: all 0.2s ease-in-out;
     color: var(--color-primary);
 }
-<<<<<<< HEAD
-    
 
-.center{
+.center {
     text-align: center;
 }
-    margin: 30px 0;
-.title{
+.title {
     font-size: 2.5rem;
 }
-=======
->>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
 /* Header */
 header {
     /* background-color: var(--color-secondary); */
