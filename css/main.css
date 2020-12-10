@@ -43,7 +43,6 @@ h5 {
     font-family: var(--font-titulos);
 }
 .contenedor {
-    width: 900px;
     margin: 0 auto;
 }
 /* Utilidades */
@@ -62,18 +61,28 @@ h5 {
 .wd-75 {
     width: 75%;
 }
+<<<<<<< HEAD
 .btn-orng{
 
+=======
+
+.btn-orng {
+>>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
     padding: 15px 20px;
     border-radius: 5px;
     color: var(--color-secondary);
     background-color: var(--color-primary);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
 .btn-orng:hover {
     background-color: var(--color-hover);
     transition: all 0.2s ease-in-out;
     color: var(--color-primary);
 }
+<<<<<<< HEAD
     
 
 .center{
@@ -83,6 +92,8 @@ h5 {
 .title{
     font-size: 2.5rem;
 }
+=======
+>>>>>>> e121af59bcc3aa676214f94c5cf23a81e04e8de4
 /* Header */
 header {
     /* background-color: var(--color-secondary); */
@@ -370,45 +381,4 @@ footer {
 
 .copyright {
     margin: 20px 0;
-}
-
-
-/**Planes**/
-
-.planes_info{
-    margin: 40px auto;
-    text-align: center;
-}
-.planes_info h2{
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.planes_info p{
-    text-transform: capitalize;
-}
-.planes_details{
-    margin: 30px auto;
-    border: 2px solid black;
-    width: 80%;
-}
-.planes_details_image{
-    flex: 1 0 calc(70% - 2rem);
-}
-.planes_details_image img{
-    height: 300px;
-    width: 100%
-    
-}
-.planes_details_info{
-    padding: 25px;
-}
-.planes_details_info h3{
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
-.planes_details_info p{
-    line-height: 1.5;
-    margin-bottom: 20px;
 }
