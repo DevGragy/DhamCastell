@@ -236,7 +236,7 @@ header {
 
 .texto-about p {
     line-height: 2;
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0;
 }
 
@@ -245,9 +245,9 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     border: 2px solid #000;
-    column-gap: 40px;
-    padding: 40px 20px;
-    margin-top: 20px;
+    gap: 80px 60px;
+    padding: 30px 20px;
+    margin: 40px 0;
 }
 
 .info-box h3 {
@@ -255,6 +255,7 @@ header {
 }
 
 .info-box p {
+    line-height: 1.5;
 }
 
 /** Porque entrenar conmigo? **/
