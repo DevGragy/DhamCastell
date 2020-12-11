@@ -61,8 +61,7 @@ h5 {
 .wd-75 {
     width: 75%;
 }
-.btn-orng{
-
+.btn-orng {
     padding: 15px 20px;
     border-radius: 5px;
     color: var(--color-secondary);
@@ -73,9 +72,13 @@ h5 {
     transition: all 0.2s ease-in-out;
     color: var(--color-primary);
 }
+<<<<<<< HEAD
+    
+
 .center{
     text-align: center;
 }
+    margin: 30px 0;
 .title{
     font-size: 2.5rem;
 }
@@ -316,6 +319,9 @@ header {
 }
 
 /* Testimoniales */
+.testimoniales {
+    padding: 120px 0;
+}
 
 /*  Footer  */
 footer {
