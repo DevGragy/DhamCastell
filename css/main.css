@@ -367,3 +367,43 @@ footer {
 .copyright {
     margin: 20px 0;
 }
+
+/**Planes**/
+
+.planes_info{
+    margin: 40px auto;
+    text-align: center;
+}
+.planes_info h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.planes_info p{
+    text-transform: capitalize;
+}
+.planes_details{
+    margin: 30px auto;
+    border: 2px solid black;
+    width: 80%;
+}
+.planes_details_image{
+    flex: 1 0 calc(70% - 2rem);
+}
+.planes_details_image img{
+    height: 300px;
+    width: 100%
+    
+}
+.planes_details_info{
+    padding: 25px;
+}
+.planes_details_info h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.planes_details_info p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
