@@ -402,6 +402,7 @@ footer {
 .planes_info p{
     text-transform: capitalize;
     font-size: 1.5rem;
+    font-family: var(--font-contenidos);
 }
 .planes_details{
     margin: 30px auto;
@@ -428,7 +429,9 @@ footer {
 .planes_details_info p{
     line-height: 1.5;
     margin-bottom: 40px;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    font-family: var(--font-contenidos);
+    text-align: justify;
 }
 .planes_details_info hr{
     width: 100%;
