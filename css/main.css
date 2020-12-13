@@ -45,7 +45,14 @@ h5 {
     font-family: var(--font-titulos);
 }
 .contenedor {
+    width: 1200px;
     margin: 0 auto;
+}
+.sessions{
+    margin-bottom: 40px;
+}
+.centrar{
+    text-align: center;
 }
 /* Utilidades */
 .wd-85 {
@@ -95,6 +102,8 @@ h5 {
 
 .title{
     font-size: 2.5rem;
+    text-align: center;
+    margin: 20px;
 }
 /* Header */
 header{
@@ -578,6 +587,7 @@ footer {
 .planes_details {
     margin: 30px auto;
     border: 2px solid #c4c4c4;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     width: 65%;
 }
 .planes_details_image {
@@ -631,4 +641,63 @@ footer {
 .costo{
     font-size: 1.6rem;
     margin: 10px 0; 
+}
+
+/*****Contacto*******/
+.contact_container{
+    display: flex;
+    height: 450px;
+}
+.contact_img{
+    width: 100%;
+    flex: 1 0 calc(50% - 1rem);
+}
+.contact_img img{
+    height: 100%;
+    width: 100%;
+}
+.container_contact_form{
+    flex: 1 0 calc(50% - 1rem);
+    background-color: var(--color-alternativeOne);
+}
+.contact_form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #c4c4c4;
+    padding: 20px;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+}
+.form_group{
+    margin-bottom: 30px;
+}
+.form_group label{
+    display: block;
+    font-size: 1.8rem;
+    font-family: var(--font-contenidos);
+}
+.form_group input{
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: transparent;
+}
+.form_group textarea {
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    height: 40px;
+    background-color: transparent;
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+}
+.btn-submit input{
+    width: 90%;
 }
