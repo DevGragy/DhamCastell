@@ -710,3 +710,6 @@ footer {
 .btn-submit input{
     width: 90%;
 }
+.btn-submit input:hover{
+    cursor: pointer;
+}
