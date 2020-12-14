@@ -697,7 +697,7 @@ footer {
     height: 40px;
     background-color: transparent;
 }
-.form_group textarea :focus{
+.form_group textarea:focus{
     outline: none;
 }
 .btn-submit{
