@@ -229,7 +229,7 @@ header{
 }
 
 .header-texto h1 {
-    font-size: 120px;
+    font-size: 140px;
     font-weight: 400;
     font-family: var(--font-Sacramento);
 }
@@ -259,7 +259,6 @@ header{
 
 .about-img {
     background-image: url(../img/cover1.jfif);
-    width: 40%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -291,17 +290,21 @@ header{
 .texto-about p {
     line-height: 2;
     font-size: 20px;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .info-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     border: 2px solid #000;
-    gap: 80px 60px;
     padding: 30px 20px;
-    margin: 40px 0;
+    margin: 40px;
+}
+
+.info-box div {
+    margin-bottom: 40px;
+}
+
+.info-box div:last-child {
+    margin-bottom: 0;
 }
 
 .info-box h3 {
@@ -310,6 +313,8 @@ header{
 
 .info-box p {
     line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 /** Porque entrenar conmigo? **/
@@ -330,7 +335,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: var(--color-secondary);
-    padding: 120px 80px;
+    padding: 0 80px;
     width: 40%;
 }
 
@@ -341,8 +346,8 @@ header{
 
 .porque-texto p {
     line-height: 2;
-    margin-bottom: 40px;
-    font-size: 16px;
+    margin-bottom: 28px;
+    font-size: 18px;
 }
 
 .porque-texto a {
@@ -350,6 +355,7 @@ header{
     align-self: flex-start;
     font-size: 16px;
     padding: 15px 60px;
+    margin-bottom: 40px;
 }
 
 .porque-contenido img {
@@ -365,13 +371,13 @@ header{
     height: 100%;
     background-attachment: fixed;
     background-position: right;
-    background-repeat: no-repeat;
     background-size: 60% 100%;
 }
 
 /* Testimoniales */
 .testimoniales {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 
 .testim-contenido {
@@ -418,14 +424,15 @@ header{
 }
 
 .carta-test p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2;
     font-weight: 300;
 }
 
 .carta-test img {
     border-radius: 50%;
-    width: 200px;
+    width: 280px;
+    height: 280px;
     margin: 0 40px;
 }
 
@@ -506,7 +513,7 @@ footer {
     width: 80%;
     display: flex;
     align-items: center;
-    padding: 10px 30px;
+    justify-content: center;
     flex-direction: column;
     font-size: 14px;
 }
@@ -516,32 +523,59 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 20px 40px;
+    padding: 20px 0;
+}
+
+.first-footer div {
+    align-self: flex-start;
 }
 
 .first-footer h3 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 20px;
+    align-self: center;
+    justify-self: flex-start;
 }
 
-.footer-text {
+.footer-sects {
+    align-self: center;
+}
+
+.footer-sects ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    font-size: 16px;
+}
+
+.footer-sects li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-sects li:last-child {
+    margin-right: 0;
+}
+
+.footer-sects a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.footer-sects li a:hover {
+    color: var(--color-hover);
+    transition: all 0.2s ease-in-out;
 }
 
 .social-media {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    margin-right: 40px;
 }
 
 .social-media li {
-    list-style: none;
     display: flex;
+    list-style: none;
     justify-content: center;
+    align-items: center;
 }
 
 .social-media img {
