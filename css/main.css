@@ -687,12 +687,18 @@ footer {
     height: 30px;
     background-color: transparent;
 }
+.form_group input:focus{
+    outline: none;
+}
 .form_group textarea {
     margin-top: 20px;
     width: 100%;
     border-bottom: 2px solid black;
     height: 40px;
     background-color: transparent;
+}
+.form_group textarea :focus{
+    outline: none;
 }
 .btn-submit{
     display: flex;
