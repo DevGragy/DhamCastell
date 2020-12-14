@@ -111,7 +111,10 @@ header{
 }
 .inicio {
     /* background-color: var(--color-secondary); */
-    background-image: url(../img/bg-black.jpg);
+    background-image: url(../img/wp-gray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-navbar {
     width: 100%;
