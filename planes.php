@@ -55,7 +55,7 @@
                             <li>Seguimiento individual</li>
                             <li>Duracion de 8 Semanas</li>
                         </ul>
-                        <p class="costo">Costo: <span class="precio">$1200 MX</span></p>
+                        <p class="costo">Costo: <span class="precio" id=="precio">$1200 MX</span></p>
                     </div>
                     <hr>
                     <div id="paypal"></div>
@@ -99,7 +99,8 @@
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: '0.01'
+                            currency: 'MXN',
+                            value: '32.69'
                         }
                     }]
                 });

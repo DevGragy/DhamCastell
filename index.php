@@ -294,6 +294,7 @@
             </div>
         </section>
 
+
     <?php include 'includes/templates/footer.php' ?>
     </body>
 </html>
