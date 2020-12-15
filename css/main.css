@@ -10,7 +10,7 @@
     --font-Spinnaker: "Spinnaker", sans-serif;
     --font-Sacramento: "Sacramento", cursive;
     --font-titulos: "Raleway", sans-serif;
-    --font-contenidos: "Roboto", sans-serif;
+    --font-contenidos: "Montserrat", sans-serif;
 }
 
 *,
@@ -111,7 +111,7 @@ header{
 }
 .inicio {
     /* background-color: var(--color-secondary); */
-    background-image: url(../img/wp-gray.jpg);
+    background-image: url(../img/fondo_principal.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -681,9 +681,16 @@ footer {
 }
 
 /*****Contacto*******/
+.contact_title{
+    margin-top: 40px;
+    font-size: 4rem;
+    text-align:center;
+    letter-spacing: 1.2px;
+}
 .contact_container{
     display: flex;
-    height: 450px;
+    height: 740px;
+    margin-top: 55px;
 }
 .contact_img{
     width: 100%;
@@ -695,12 +702,15 @@ footer {
 }
 .container_contact_form{
     flex: 1 0 calc(50% - 1rem);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-alternativeOne);
 }
 .contact_form{
     width: 80%;
     margin: 0 auto;
-    margin-top: 20px;
     border: 2px solid #c4c4c4;
     padding: 20px;
 }
@@ -708,6 +718,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 3rem;
+    height: 300px;
 }
 .form_group{
     margin-bottom: 30px;
@@ -742,7 +753,7 @@ footer {
     justify-content: center;
 }
 .btn-submit input{
-    width: 90%;
+    width: 45%;
 }
 .btn-submit input:hover{
     cursor: pointer;
