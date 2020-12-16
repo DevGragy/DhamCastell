@@ -28,7 +28,7 @@
                             <li>Seguimiento individual</li>
                             <li>Duracion de 4 Semanas</li>
                         </ul>
-                        <p class="costo">Costo: <span class="precio">$650 MX</span> </p>
+                        <p class="costo">Costo: <span class="precio" id="precio1">$650 MX</span> </p>
                     </div>
                     <hr>
                     <div id="paypal"></div>
@@ -55,7 +55,7 @@
                             <li>Seguimiento individual</li>
                             <li>Duracion de 8 Semanas</li>
                         </ul>
-                        <p class="costo">Costo: <span class="precio" id=="precio">$1200 MX</span></p>
+                        <p class="costo">Costo: <span class="precio" id="precio2">$1200 MX</span></p>
                     </div>
                     <hr>
                     <div id="paypal"></div>
@@ -82,7 +82,7 @@
                             <li>Seguimiento individual</li>
                             <li>Duracion de 12 Semanas</li>
                         </ul>
-                        <p class="costo">Costo: <span class="precio">$1800 MX</span> </p>
+                        <p class="costo">Costo: $<span class="precio" id="precio3">1800</span>MX</p>
                     </div>
                     <hr>
                     <div id="paypal"></div>
@@ -90,28 +90,7 @@
             </div>
         </section>
         <script src="https://www.paypal.com/sdk/js?client-id=AVsk7OJVshUFDaGLMefknzWEsg4NnNCD3OOFsg_ExumUDs2fTuCWdhJtKwMeL2RrL7YqqJSMvx4h3boa&disable-funding=card" data-namespace="paypal_sdk"></script>
-        <script>paypal_sdk.Buttons({
-            style: {
-                color: 'black',
-                size: 'responsive',
-            },
-            createOrder: function(data,actions){
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            currency: 'MXN',
-                            value: '32.69'
-                        }
-                    }]
-                });
-            },
-            onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-                alert('Transaction completed by ' + details.payer.name.given_name);
-            });
-            }
-        }).render('#paypal');
-        </script>
+        <script src="js/main.js"></script>
         <?php include 'includes/templates/footer.php' ?>
     </body>
 </html>
