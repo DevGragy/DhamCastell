@@ -5,10 +5,18 @@
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
     
-    function enviarCorreo(){
-        
-
-        
+    //Mensaje maximo de 70 Caracteres
+    $mensaje = wordwrap($mensaje, 70, "\r\n");
+    $success = mail("lanavarrogs@gmail.com",$asunto, $mensaje);
+    if($success){
+        $response = array(
+            'respuesta' => 'correcto'
+        );
+    }else{
+        $response = array(
+            'respuesta' => 'error'
+        );
     }
+    echo json_encode($respuesta);
 ?>
 

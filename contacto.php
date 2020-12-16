@@ -4,7 +4,7 @@
             <h2 class="contact_title">Contacto</h2>
             <div class="contact_container">
                 <div class="contact_img">
-                    <img src="./img/contact.png" alt="ImagenContacto">
+                    <img src="img/contact.png" alt="ImagenContacto">
                 </div>
                 <div class="container_contact_form"> 
                     <form class="contact_form" id="contact_form" method="POST">
