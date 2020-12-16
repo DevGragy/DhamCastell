@@ -15,7 +15,15 @@
         <title>Dham Castell</title>
     </head>
     <body>
-        <header class="inicio">
+        <?php 
+            $paginaActual = obtenerPaginaActual();
+            if($paginaActual == 'index'){
+                echo '<header class="inicio">';
+            }else{
+                echo '<header>';
+            }
+        ?>
+
             <nav class="header-navbar">
                 <div class="header-inicio">
                     <a href="index.php">

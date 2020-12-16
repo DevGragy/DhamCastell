@@ -1,4 +1,6 @@
 <?php include 'includes/templates/header.php' ?>
+
+
         <section class="contenedor sessions">
             <div class="planes_info">
                 <h2>Sesiones de Entrenamiento</h2>
@@ -91,6 +93,9 @@
         </section>
         <script src="https://www.paypal.com/sdk/js?client-id=AVsk7OJVshUFDaGLMefknzWEsg4NnNCD3OOFsg_ExumUDs2fTuCWdhJtKwMeL2RrL7YqqJSMvx4h3boa&disable-funding=card" data-namespace="paypal_sdk"></script>
         <script src="js/main.js"></script>
+
         <?php include 'includes/templates/footer.php' ?>
+
+
     </body>
 </html>

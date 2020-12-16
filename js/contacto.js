@@ -26,7 +26,7 @@ function enviarCorreo(e){
     datos.append('asunto',asunto)
     datos.append('mensaje',mensaje);
 
-    fetch('http://dhamcastell.com/includes/models/email.php',{
+    fetch('http://localhost/DhamCastell/includes/models/email.php',{
         method: 'POST',
         body: datos
     }).then(response => {
