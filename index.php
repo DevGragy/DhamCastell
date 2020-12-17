@@ -60,16 +60,19 @@
                         <a href="">
                             <img src="img/icons/facebook.png" alt="" />
                         </a>
+                        <h3>Facebook</h3>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/dhamcastell/">
                             <img src="img/icons/instagram.png" alt="" />
                         </a>
+                        <h3>Instagram</h3>
                     </li>
                     <li>
                         <a href="">
                             <img src="img/icons/youtube.png" alt="" />
                         </a>
+                        <h3>YouTube</h3>
                     </li>
                     <li>
                         <a
@@ -77,6 +80,7 @@
                         >
                             <img src="img/icons/whatsapp.png" alt="" />
                         </a>
+                        <h3>WhatsApp</h3>
                     </li>
                 </ul>
             </div>
@@ -149,20 +153,7 @@
                                 con el transcurso de los días mi cuerpo se fue a
                                 acostumbrando a la alimentación y a los
                                 ejercicios, todo es parte de un esfuerzo mental,
-                                motivación y ganas por cambiar. Ahora que ya
-                                tengo más tiempo en este nuevo estilo de vida me
-                                ha brindado grandes satisfacciones tanto el
-                                ámbito físico, emocional y en la creación de
-                                nuevas metas en mi vida!! Sobre todo esto no lo
-                                habría podido lograr sin el apoyo de Dham ya que
-                                me dio consejos para no rendirme, para seguir
-                                adelante, así como técnicas y sobre todo la
-                                atención personalizada que brinda Dham al
-                                preguntar sobre dudas que te surgen, ya sea de
-                                la manera de preparar alimentos, técnicas para
-                                realizar rutinas, más que nada ha sido una de
-                                las mejores desiciones que he tomado en mi vida,
-                                agradecida enormemente con Dham !!."
+                                motivación y ganas por cambiar. "
                             </p>
                             <img src="img/person1.jpg" alt="" />
                         </div>
@@ -178,23 +169,14 @@
                             <img src="img/person2.jpg" alt="" />
 
                             <p>
-                                " Quiero platicarles mi experiencia de estos
-                                siete meses que llevo en el programa de Dham.
-                                Soy casada, tengo 42 años y dos hijos. Después
-                                de mi segunda hija había intentado bajar de
-                                peso, haciendo dietas que me mataban de hambre y
-                                tratando de hacer ejercico pero nunca lo logré
-                                como hasta ahora. Cuando inicie en el programa
-                                con Dhamar,desde la segunda semana comencé a
-                                bajar de peso y grasa. Hacia el tercer mes mi
-                                cuerpo ya estaba cambiando totalmente y por
-                                primera vez en mi vida obtuve lo que siempre
-                                quise,comer rico y saludable (sin matarme de
-                                hambre)y ver mi cuerpo tonificado y en forma
-                                gracias a los ejercicios de Dhamar. Ya son 7
-                                meses que llevo en su programa, y puedo decirles
-                                que estoy SUPER contenta con todos los cambios
-                                que he tenido y aun quiero lograr todavía mas."
+                                " Cuando inicie en el programa con Dhamar,desde
+                                la segunda semana comencé a bajar de peso y
+                                grasa. Hacia el tercer mes mi cuerpo ya estaba
+                                cambiando totalmente y por primera vez en mi
+                                vida obtuve lo que siempre quise,comer rico y
+                                saludable (sin matarme de hambre)y ver mi cuerpo
+                                tonificado y en forma gracias a los ejercicios
+                                de Dhamar. "
                             </p>
                         </div>
                         <hr />
@@ -207,39 +189,15 @@
                     <div class="carta-ind">
                         <div class="carta-test">
                             <p>
-                                " Llevo aprox 6 meses con el programa Week
-                                muscle evolution de Dhamar. Me pidieron dar un
-                                pequeño testimonio y no dire que es sencillo
-                                porque no lo es, es un proceso largo que aunque
-                                ya llevo tiempo todavía falta mucho para
-                                alcanzar mi objetivo. Llevar una vida sana no es
-                                no comer o solo comer verduras , nada de eso. Es
-                                aprender a conocer a tu cuerpo y lo que necesita
-                                para seguir desarrollándose adecuadamente. Antes
-                                de Dhamar , hubo un tiempo donde el comer poco o
-                                no comer por largos periodos de tiempo era la
-                                mejor decisión que podía hacer pero claramente
-                                mi cuerpo no pensó lo mismo y tuve muchos
-                                problemas , me dejé de amar y perdí confianza al
-                                verme en un espejo... pero después de eso logré
-                                ver que no estaba bien lo que hacía y decidí
-                                reincorporarme con Dham. El cambio lo vi desde
-                                las primeras semanas porque regresó la confianza
-                                en mí y hoy en día puedo decir que me siento muy
-                                afortunada por tenerla y crecer juntas yendo de
-                                la mano apoyándonos. Me gusta que siempre aunque
-                                tenga el trabajo encima, que eso es bueno , está
-                                al pendiente y resolviéndote dudas. Es cuestión
-                                de disciplina , no de fuerza de voluntad o algo
-                                así porque como lo que me gusta. Al compartir mi
-                                historia y recordar por todo lo que he pasado ,
-                                me da nostalgia pero también felicidad que más
-                                personas se sumen a este proyecto y seamos más
-                                los que creamos un cambio para lograr nuestros
-                                objetivos. Pienso seguir con ella mucho tiempo y
-                                espero que muchas personas se animen y se
-                                avienten a ver un cambio en ellos mismos
-                                trabajando día a día."
+                                " El cambio lo vi desde las primeras semanas
+                                porque regresó la confianza en mí y hoy en día
+                                puedo decir que me siento muy afortunada por
+                                tenerla y crecer juntas yendo de la mano
+                                apoyándonos. Me gusta que siempre aunque tenga
+                                el trabajo encima, que eso es bueno , está al
+                                pendiente y resolviéndote dudas. Es cuestión de
+                                disciplina , no de fuerza de voluntad o algo así
+                                porque como lo que me gusta. "
                             </p>
                             <img src="img/person3.jpg" alt="" />
                         </div>
