@@ -28,7 +28,7 @@ try {
 
     //Recipients
     $mail->setFrom('dhamcontacto@dhamcastell.com', 'Dham Castell');
-    $mail->addAddress('eliasgarcia971@gmail.com', 'Elias Garcia');     // Add a recipient
+    $mail->addAddress('lanavarrogs@gmail.com', 'Elias Garcia');     // Add a recipient
 
 
     // Content

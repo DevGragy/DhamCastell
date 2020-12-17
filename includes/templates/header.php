@@ -12,6 +12,7 @@
         />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <title>Dham Castell</title>
     </head>
     <body>
