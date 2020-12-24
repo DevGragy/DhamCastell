@@ -87,7 +87,7 @@
         </header>
 
         <section class="about-dham">
-            <div class="contenido-about contenedor">
+            <div class="contenido-about">
                 <div class="about-img">
                     <img src="./img/dham-pink.png" alt="Imagen-principal" />
                 </div>

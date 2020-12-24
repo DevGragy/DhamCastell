@@ -189,7 +189,7 @@ header {
 }
 
 .header-social-media {
-    background-color: var(--color-semiBlack);
+    background-color: var(--color-secondary);
 }
 
 .header-social-media ul {
@@ -520,7 +520,7 @@ footer {
     align-items: center;
     width: 100%;
     color: var(--color-primary);
-    background-color: var(--color-semiBlack2);
+    background-color: var(--color-secondary);
 }
 
 .contenido-footer {

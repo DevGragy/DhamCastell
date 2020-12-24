@@ -1,4 +1,6 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -28,7 +30,7 @@ try {
 
     //Recipients
     $mail->setFrom('dhamcontacto@dhamcastell.com', 'Dham Castell');
-    $mail->addAddress('lanavarrogs@gmail.com', 'Elias Garcia');     // Add a recipient
+    $mail->addAddress('dhamcontacto@dhamcastell.com', '');     // Add a recipient
 
 
     // Content
