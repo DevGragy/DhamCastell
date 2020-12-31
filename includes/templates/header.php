@@ -33,56 +33,19 @@
                 <div class="header-sects">
                     <ul>
                         <li>
-                            <a href="index.html">Inicio</a>
+                            <a href="index.php">Inicio</a>
                         </li>
                         <li>
-                            <a href="planes.html">Planes</a>
+                            <a href="planes.php">Planes</a>
                         </li>
                         <li>
-                            <a href="contacto.html">Contacto</a>
+                            <a href="contacto.php">Contacto</a>
                         </li>
                         <li>
-                            <a href="faq.html">F.A.Q.</a>
+                            <a href="faq.php">F.A.Q.</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <div class="header-contenido">
-                <div class="header-texto">
-                    <h1>Dham Castell</h1>
-                    <h3>Fitness Training</h3>
-                    <a href="planes.php" class="btn-orng">Entrena Ahora</a>
-                </div>
-                <img src="img/dham-header.png" alt="dham-1" />
-            </div>
-            <div class="header-social-media">
-                <ul>
-                    <li>
-                        <a href="facebook.com">
-                            <img src="img/icons/facebook.png" alt="" />
-                        </a>
-                        <h3>Facebook</h3>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/dhamcastell/">
-                            <img src="img/icons/instagram.png" alt="" />
-                        </a>
-                        <h3>Instagram</h3>
-                    </li>
-                    <li>
-                        <a href="youtube.com">
-                            <img src="img/icons/youtube.png" alt="" />
-                        </a>
-                        <h3>YouTube</h3>
-                    </li>
-                    <li>
-                        <a
-                            href="https://wa.me/?texto=Me%20gustaria%20entrenar%20contigo"
-                        >
-                            <img src="img/icons/whatsapp.png" alt="" />
-                        </a>
-                        <h3>WhatsApp</h3>
-                    </li>
-                </ul>
-            </div>
+            
         </header>
