@@ -38,6 +38,7 @@
             </div>
         </section>
         <script src ="js/contacto.js"></script>
+        <script src="js/navbar.js"></script>
     <?php include 'includes/templates/footer.php' ?>
     </body>
 </html>

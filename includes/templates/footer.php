@@ -6,13 +6,16 @@
                         <div class="footer-sects">
                             <ul>
                                 <li>
-                                    <a href="index.html">Inicio</a>
+                                    <a href="index.php">Inicio</a>
                                 </li>
                                 <li>
-                                    <a href="planes.html">Planes</a>
+                                    <a href="planes.php">Planes</a>
                                 </li>
                                 <li>
-                                    <a href="contacto.html">Contacto</a>
+                                    <a href="contacto.php">Contacto</a>
+                                </li>
+                                <li>
+                                    <a href="faq.php">F.A.Q.</a>
                                 </li>
                             </ul>
                         </div>
@@ -23,7 +26,7 @@
                         <div>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="facebook.com">
                                         <img
                                             src="img/icons/facebook.png"
                                             alt=""
@@ -38,7 +41,7 @@
                                             alt=""
                                         />
                                     </a>
-                                    <a href="#">
+                                    <a href="youtube.com">
                                         <img
                                             src="img/icons/youtube.png"
                                             alt=""
@@ -60,7 +63,7 @@
 
                     <div class="footer-info">
                         <h3>Mas Información</h3>
-                        <a href="contacto.html" class="btn-orng">
+                        <a href="contacto.php" class="btn-orng">
                             Contáctame!
                         </a>
                     </div>

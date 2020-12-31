@@ -8,8 +8,11 @@
             href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@300;400;500&family=Sacramento&family=Raleway&family=Spinnaker&display=swap"
             rel="stylesheet"
         />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
         <title>Dham Castell</title>
     </head>
     <body>
@@ -20,28 +23,24 @@
                         <h2>Dham<strong>Castell</strong></h2>
                     </a>
                 </div>
-
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
                 <div class="header-sects">
                     <ul>
                         <li>
-                            <a href="index.php">Inicio</a>
+                            <a href="index.html">Inicio</a>
                         </li>
                         <li>
-                            <a href="planes.php">Planes</a>
+                            <a href="planes.html">Planes</a>
                         </li>
                         <li>
-                            <a href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="acceso-pagina">
-                    <ul>
-                        <li>
-                            <a href="#" class="inicia">Inicia Sesión</a>
+                            <a href="contacto.html">Contacto</a>
                         </li>
                         <li>
-                            <a href="#" class="btn-orng"> Registrate </a>
+                            <a href="faq.html">F.A.Q.</a>
                         </li>
                     </ul>
                 </div>
@@ -50,14 +49,14 @@
                 <div class="header-texto">
                     <h1>Dham Castell</h1>
                     <h3>Fitness Training</h3>
-                    <a href="planes.html" class="btn-orng">Entrena Ahora</a>
+                    <a href="planes.php" class="btn-orng">Entrena Ahora</a>
                 </div>
                 <img src="img/dham-header.png" alt="dham-1" />
             </div>
             <div class="header-social-media">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="facebook.com">
                             <img src="img/icons/facebook.png" alt="" />
                         </a>
                         <h3>Facebook</h3>
@@ -69,7 +68,7 @@
                         <h3>Instagram</h3>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="youtube.com">
                             <img src="img/icons/youtube.png" alt="" />
                         </a>
                         <h3>YouTube</h3>
@@ -87,7 +86,7 @@
         </header>
 
         <section class="about-dham">
-            <div class="contenido-about contenedor">
+            <div class="contenido-about">
                 <div class="about-img">
                     <img src="./img/dham-pink.png" alt="Imagen-principal" />
                 </div>
@@ -96,9 +95,25 @@
                     <h2>Un Poco de Dham</h2>
                     <div class="info-box">
                         <div>
-                            <p>Dhamar Castell es licenciada mexicana en Ciencias del Deporte.</p>  
-                            <p>Amante del fitness; en 2019 ganó el 1er lugar en la categoría de bikini fitness en el ferrocarrilero.</p>
-                             <p>Cuenta con un año de experiencia como entrenadora personal de mujeres. Mujeres como tú que quieren realizar un cambio en su estilo de vida; mujeres que buscan transformar su cuerpo y mente a través del ejercicio y la alimentación saludable; mujeres que necesitan una guía y una amiga en este proceso.</p>
+                            <h3>¡Conóceme!</h3>
+                            <p>
+                                Dhamar Castell es licenciada mexicana en
+                                Ciencias del Deporte.
+                            </p>
+                            <p>
+                                Amante del fitness; en 2019 ganó el 1er lugar en
+                                la categoría de bikini fitness en el
+                                ferrocarrilero.
+                            </p>
+                            <p>
+                                Cuenta con un año de experiencia como
+                                entrenadora personal de mujeres. Mujeres como tú
+                                que quieren realizar un cambio en su estilo de
+                                vida; mujeres que buscan transformar su cuerpo y
+                                mente a través del ejercicio y la alimentación
+                                saludable; mujeres que necesitan una guía y una
+                                amiga en este proceso.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +142,7 @@
                         > Dham siempre muestra una gran actitud y está dispuesta
                         a acompañarte en cada parte del proceso.
                     </p>
-                    <a href="planes.html" class="btn-orng">Planes</a>
+                    <a href="planes.php" class="btn-orng">Planes</a>
                 </div>
                 <div class="porque-img">
                     <img src="./img/dham-gym.png" alt="FotoDham3" />
@@ -252,7 +267,8 @@
             </div>
         </section>
 
-
     <?php include 'includes/templates/footer.php' ?>
+    <script src="js/navbar.js"></script>
+
     </body>
 </html>
