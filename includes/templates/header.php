@@ -10,9 +10,11 @@
             href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@300;400;500&family=Sacramento&family=Raleway&family=Spinnaker&display=swap"
             rel="stylesheet"
         />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="css/main.css" />
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <title>Dham Castell</title>
     </head>
     <body>
@@ -31,7 +33,11 @@
                         <h2>Dham<strong>Castell</strong></h2>
                     </a>
                 </div>
-
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
                 <div class="header-sects">
                     <ul>
                         <li>
@@ -43,18 +49,11 @@
                         <li>
                             <a href="contacto.php">Contacto</a>
                         </li>
-                    </ul>
-                </div>
-
-                <div class="acceso-pagina">
-                    <ul>
                         <li>
-                            <a href="#" class="inicia">Inicia Sesión</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-orng"> Registrate </a>
+                            <a href="faq.php">F.A.Q.</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            
         </header>

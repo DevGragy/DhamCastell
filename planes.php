@@ -1,98 +1,73 @@
 <?php include 'includes/templates/header.php' ?>
-
-
-        <section class="contenedor sessions">
-            <div class="planes_info">
-                <h2>Sesiones de Entrenamiento</h2>
-                <p>
-                    week muscle evolution (asesoria personalizada) es un
-                    programa de entrenamiento en linea totalmente personalizado.
-                </p>
-            </div>
-
-            <div class="planes_details d-flex">
-                <div class="planes_details_image">
-                    <img
-                        src="./img/john-arano-h4i9G-de7Po-unsplash.jpg"
-                        alt="FotoPlan"
-                    />
+        
+<main>
+            <div class="section-planes">
+                <div class="titulo-planes">
+                    <h2>Planes</h2>
                 </div>
-                <div class="planes_details_info">
-                    <h3>Programa 1</h3>
-                    <div class="info">
-                        <h4>Incluye:</h4>
+
+                <div class="contenido-planes">
+                    <div class="cuerpo-planes">
+                        <h3>
+                            ¡Escoge tu tiempo de entranamiento y aprovecha todos
+                            los beneficios!
+                        </h3>
                         <ul>
-                            <li>Encuesta Inicial</li>
-                            <li>Plan de alimentacion personalizado</li>
-                            <li>Ajustes en el plan de alimentacion cada 15 días</li>
+                            <li>Encuesta inicial</li>
+                            <li>Plan de alimentación personalizado</li>
+                            <li>
+                                Ajustes en el plan de alimentación cada 15 días
+                            </li>
                             <li>Lista de marcas recomendadas</li>
-                            <li>Rutina de entrenamiento personalizada en base a tus objetivo (En Casa o Gym)</li>
                             <li>Seguimiento individual</li>
-                            <li>Duracion de 4 Semanas</li>
+                            <li>
+                                Rutina de entramiento personalizada en base a
+                                tus objetivos (En Casa o Gym)
+                            </li>
                         </ul>
-                        <p class="costo">Costo: <span class="precio" id="precio1">$650 MX</span> </p>
                     </div>
-                    <hr>
-                    <div id="paypal"></div>
+                    <div class="imagen-planes">
+                        <img src="img/dham-top.png" alt="" />
+                    </div>
                 </div>
-            </div>
 
-            <div class="planes_details d-flex">
-                <div class="planes_details_image">
-                    <img
-                        src="./img/meghan-holmes-wy_L8W0zcpI-unsplash.jpg"
-                        alt="FotoPlan"
-                    />
-                </div>
-                <div class="planes_details_info">
-                    <h3>Programa 2</h3>
-                    <div class="info">
-                        <h4>Incluye:</h4>
-                        <ul>
-                            <li>Encuesta Inicial</li>
-                            <li>Plan de alimentacion personalizado</li>
-                            <li>Ajustes en el plan de alimentacion cada 15 días</li>
-                            <li>Lista de marcas recomendadas</li>
-                            <li>Rutina de entrenamiento personalizada en base a tus objetivo (En Casa o Gym)</li>
-                            <li>Seguimiento individual</li>
-                            <li>Duracion de 8 Semanas</li>
-                        </ul>
-                        <p class="costo">Costo: <span class="precio" id="precio2">$1200 MX</span></p>
+                <div class="tipos-planes">
+                    <div class="card-planes">
+                        <div>
+                            <h2>4</h2>
+                        </div>
+                        <div>
+                            <h3>Semanas</h3>
+                            <p>Costo: $650 MX</p>
+                        </div>
                     </div>
-                    <hr>
-                    <div id="paypal"></div>
-                </div>
-            </div>
 
-            <div class="planes_details d-flex">
-                <div class="planes_details_image">
-                    <img
-                        src="./img/meghan-holmes-wy_L8W0zcpI-unsplash.jpg"
-                        alt="FotoPlan"
-                    />
-                </div>
-                <div class="planes_details_info">
-                    <h3>Programa 3</h3>
-                    <div class="info">
-                        <h4>Incluye:</h4>
-                        <ul >
-                            <li>Encuesta Inicial</li>
-                            <li>Plan de alimentacion personalizado</li>
-                            <li>Ajustes en el plan de alimentacion cada 15 días</li>
-                            <li>Lista de marcas recomendadas</li>
-                            <li>Rutina de entrenamiento personalizada en base a tus objetivo (En Casa o Gym)</li>
-                            <li>Seguimiento individual</li>
-                            <li>Duracion de 12 Semanas</li>
-                        </ul>
-                        <p class="costo">Costo: $<span class="precio" id="precio3">1800</span>MX</p>
+                    <div class="card-planes">
+                        <div>
+                            <h2>8</h2>
+                        </div>
+                        <div>
+                            <h3>Semanas</h3>
+                            <p>Costo: $1200 MX</p>
+                        </div>
                     </div>
-                    <hr>
-                    <div id="paypal"></div>
+
+                    <div class="card-planes">
+                        <div>
+                            <h2>12</h2>
+                        </div>
+                        <div>
+                            <h3>Semanas</h3>
+                            <p>Costo: $1800 MX</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </main>
+
         <script src="https://www.paypal.com/sdk/js?client-id=AVsk7OJVshUFDaGLMefknzWEsg4NnNCD3OOFsg_ExumUDs2fTuCWdhJtKwMeL2RrL7YqqJSMvx4h3boa&disable-funding=card" data-namespace="paypal_sdk"></script>
         <script src="js/main.js"></script>
+        <script src="js/navbar.js"></script>
 
         <?php include 'includes/templates/footer.php' ?>
 
