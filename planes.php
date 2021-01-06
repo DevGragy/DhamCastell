@@ -32,17 +32,17 @@
                 </div>
 
                 <div class="tipos-planes">
-                    <div class="card-planes">
-                        <div>
-                            <h2>4</h2>
-                        </div>
-                        <div>
-                            <h3>Semanas</h3>
-                            <p>Costo: $650 MX</p>
-                        </div>
+                    <div class="card-planes btnModal" id="btnModal1">
+                            <div>
+                                <h2>4</h2>
+                            </div>
+                            <div>
+                                <h3>Semanas</h3>
+                                <p>Costo: $650 MX</p>
+                            </div>
                     </div>
 
-                    <div class="card-planes">
+                    <div class="card-planes btnModal" id="btnModal2">
                         <div>
                             <h2>8</h2>
                         </div>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
 
-                    <div class="card-planes">
+                    <div class="card-planes btnModal" id="btnModal3">
                         <div>
                             <h2>12</h2>
                         </div>
@@ -63,7 +63,18 @@
                     </div>
                 </div>
             </div>
+
+            <div id="tvesModal" class="modalContainer">
+                <div class="modal-content">
+                    <span class="close">X</span>
+                    <h2>Confirmar Pedido</h2>
+                    <p>$<span id="precio">650</span></p>
+                    <div id="paypal"></div>
+                </div>
+            </div>
+
         </main>
+        
 
         <script src="https://www.paypal.com/sdk/js?client-id=AVsk7OJVshUFDaGLMefknzWEsg4NnNCD3OOFsg_ExumUDs2fTuCWdhJtKwMeL2RrL7YqqJSMvx4h3boa&disable-funding=card" data-namespace="paypal_sdk"></script>
         <script src="js/main.js"></script>
