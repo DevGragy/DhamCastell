@@ -1445,3 +1445,8 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+/***Mantenimiento*****/
+.mantenimiento img{
+    height: 100vh;
+    max-width:  100%;
+}
