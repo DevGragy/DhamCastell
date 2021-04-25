@@ -14,16 +14,26 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link href="https://fonts.googleapis.com/css2?      family=Dancing+Script&display=swap"     rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css" />
         <title>Dham Castell</title>
     </head>
     <body>
-        <header class="inicio">
+        <?php 
+            $paginaActual = obtenerPaginaActual();
+            if($paginaActual == 'index'){
+                echo '<header class="inicio">';
+            }else{
+                echo '<header>';
+            }
+        ?>
+
             <nav class="header-navbar">
                 <div class="header-inicio">
                     <a href="index.php">
-                        <h2>Dham<strong>Castell</strong></h2>
+                        <img src="../img/dham-logo.png" alt="">
                     </a>
+                    <h4>@dhamcastell</h4>
                 </div>
                 <a href="#" class="toggle-button">
                     <span class="bar"></span>

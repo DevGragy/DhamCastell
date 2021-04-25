@@ -8,7 +8,7 @@
                 dudas.
             </p>
             <p>
-                Para mas una duda mas especifica, visita la página de contacto,
+                Para mas de una duda mas especifica, visita la página de contacto,
                 estare feliz de ayudarte.
             </p>
 
@@ -76,7 +76,8 @@
                 </p>
             </div>
         </section>
-
+        <script src="./js/navbar.js"></script>
+        <script src="./js/faq.js"></script>
 <?php include 'includes/templates/footer.php' ?>
     </body>
 </html>

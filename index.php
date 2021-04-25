@@ -12,16 +12,17 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <title>Dham Castell</title>
     </head>
     <body>
         <header class="inicio">
             <nav class="header-navbar">
-                <div class="header-inicio">
+            <div class="header-inicio">
                     <a href="index.php">
-                        <h2>Dham<strong>Castell</strong></h2>
+                        <img src="../img/dham-logo.png" alt="">
                     </a>
+                    <h4>@dhamcastell</h4>
                 </div>
                 <a href="#" class="toggle-button">
                     <span class="bar"></span>
@@ -31,16 +32,16 @@
                 <div class="header-sects">
                     <ul>
                         <li>
-                            <a href="index.html">Inicio</a>
+                            <a href="index.php">Inicio</a>
                         </li>
                         <li>
-                            <a href="planes.html">Planes</a>
+                            <a href="planes.php">Planes</a>
                         </li>
                         <li>
-                            <a href="contacto.html">Contacto</a>
+                            <a href="contacto.php">Contacto</a>
                         </li>
                         <li>
-                            <a href="faq.html">F.A.Q.</a>
+                            <a href="faq.php">F.A.Q.</a>
                         </li>
                     </ul>
                 </div>
@@ -244,7 +245,7 @@
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/p/CG3ydM8n61j/">
+                        <a href="https://www.instagram.com/p/CKxax0tFYBw/">
                             <img src="img/insta-3.jpg" alt="" />
                         </a>
                     </div>

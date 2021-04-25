@@ -2,7 +2,7 @@
             <div class="contenido-footer">
                 <div class="first-footer">
                     <div class="footer-text">
-                        <h3>DhamCastell</h3>
+                        <h4>@dhamcastell</h4>
                         <div class="footer-sects">
                             <ul>
                                 <li>
@@ -20,19 +20,17 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="social-media">
                         <h3>Redes Sociales</h3>
                         <div>
                             <ul>
                                 <li>
-                                    <a href="facebook.com">
+                                    <a href="http://www.facebook.com">
                                         <img
                                             src="img/icons/facebook.png"
                                             alt=""
                                         />
                                     </a>
-
                                     <a
                                         href="https://www.instagram.com/dhamcastell/?hl=es-la"
                                     >
@@ -41,15 +39,14 @@
                                             alt=""
                                         />
                                     </a>
-                                    <a href="youtube.com">
+                                    <a href="http://www.youtube.com">
                                         <img
                                             src="img/icons/youtube.png"
                                             alt=""
                                         />
                                     </a>
-
                                     <a
-                                        href="https://wa.me/?texto=Me%20gustaria%20entrenar%20contigo"
+                                        href="https://wa.me/5611267766?text=Me%20gustaria%20entrenar%20contigo"
                                     >
                                         <img
                                             src="img/icons/whatsapp.png"
@@ -60,7 +57,6 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="footer-info">
                         <h3>Mas Información</h3>
                         <a href="contacto.php" class="btn-orng">
@@ -68,9 +64,8 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="copyright">
-                    &copy; 2020 Projec7 | Todos los derechos reservados.
+                    &copy; 2021 Projec7 | Todos los derechos reservados.
                 </div>
             </div>
         </footer>
