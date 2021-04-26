@@ -130,7 +130,7 @@
         </main>
         
 
-        <script src="https://www.paypal.com/sdk/js?client-id=AVsk7OJVshUFDaGLMefknzWEsg4NnNCD3OOFsg_ExumUDs2fTuCWdhJtKwMeL2RrL7YqqJSMvx4h3boa&disable-funding=card" data-namespace="paypal_sdk"></script>
+        <script src="https://www.paypal.com/sdk/js?client-id=Af-KUSXfxVRWwy50ZM-L7xrzM1qV-zLdhey_JW3hEPzylJbfWC1eBwvfhkHKZl42qfBZcOooh-qjBUef&disable-funding=card" data-namespace="paypal_sdk"></script>
         <script src="js/main.js"></script>
         <script src="js/navbar.js"></script>
 
