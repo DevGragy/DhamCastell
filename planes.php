@@ -41,12 +41,12 @@
                 <div class="tipos-planes">
                     <div class="card-planes btnModal" id="btnModal4">
                             <div>
-                                <h2>4</h2>
+                                <h2>6</h2>
                             </div>
                             <div>
-                                <h3>Pre Summer</h3>
-                                <p class='tachado'>Costo: $850 MX</p>
+                                <h3>Semanas</h3>
                                 <p>Costo: $700 MX</p>
+                                <p class='tachado'>Costo: $850 MX</p>
                             </div>
                     </div>
 
