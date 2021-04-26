@@ -268,8 +268,23 @@
             </div>
         </section>
 
+
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+		<div class="modal-header">
+			<button class="close-button">&times;</button>
+		</div>
+		<div class="modal-body">
+			<a href="planes.php">
+			   <img src="./img/summer.png"/>
+		        </a>
+		</div>  
+            </div>
+	</div>
+	<div class="overlay" id="overlay"></div>
+
     <?php include 'includes/templates/footer.php' ?>
     <script src="js/navbar.js"></script>
-
+    <script src="js/popus.js"></script>
     </body>
 </html>
