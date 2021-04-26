@@ -57,7 +57,7 @@
             <div class="header-social-media">
                 <ul>
                     <li>
-                        <a href="facebook.com">
+                        <a href="https://www.facebook.com/dhamart">
                             <img src="img/icons/facebook.png" alt="" />
                         </a>
                         <h3>Facebook</h3>
@@ -69,14 +69,14 @@
                         <h3>Instagram</h3>
                     </li>
                     <li>
-                        <a href="youtube.com">
+                        <a href="http://www.youtube.com">
                             <img src="img/icons/youtube.png" alt="" />
                         </a>
                         <h3>YouTube</h3>
                     </li>
                     <li>
                         <a
-                            href="https://wa.me/?texto=Me%20gustaria%20entrenar%20contigo"
+                            href="https://wa.me/5560674236?text=Me%20gustaria%20entrenar%20contigo"
                         >
                             <img src="img/icons/whatsapp.png" alt="" />
                         </a>

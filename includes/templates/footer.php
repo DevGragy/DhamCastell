@@ -25,7 +25,7 @@
                         <div>
                             <ul>
                                 <li>
-                                    <a href="http://www.facebook.com">
+                                    <a href="https://www.facebook.com/dhamart">
                                         <img
                                             src="img/icons/facebook.png"
                                             alt=""
@@ -46,7 +46,7 @@
                                         />
                                     </a>
                                     <a
-                                        href="https://wa.me/5611267766?text=Me%20gustaria%20entrenar%20contigo"
+                                        href="https://wa.me/5560674236?text=Me%20gustaria%20entrenar%20contigo"
                                     >
                                         <img
                                             src="img/icons/whatsapp.png"

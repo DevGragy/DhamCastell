@@ -6,7 +6,7 @@
     --color-secondary: #000000;
     --color-text: #fffcfa;
     --color-alternativeOne: #f2f2f2;
-    --color-hover: #e07a5f;
+    --color-hover: #eb969c;
     --color-semiBlack: #212227;
     --color-semiBlack2: #222831;
     --font-Spinnaker: "Spinnaker", sans-serif;
@@ -1492,58 +1492,67 @@ p {
     max-width: 100%;
 }
 
+
 /**Modal**/
-.modal-container{
+
+.modal-container {
     width: 35em;
     height: 35em;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    z-index: 5;     
+    z-index: 5;
 }
 
-.modal-header{
+.modal-header {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
-.modal-header button{
+
+.modal-header button {
     width: 2em;
     height: 2em;
     border-radius: 50%;
     font-weight: bold;
     font-size: 1.6em;
 }
-.modal-header button:hover{
+
+.modal-header button:hover {
     cursor: pointer;
 }
-.modal-body{
+
+.modal-body {
     width: 100%;
 }
-.modal-active{
-    transform: translate(-50%,-50%) scale(1);
+
+.modal-active {
+    transform: translate(-50%, -50%) scale(1);
 }
+
 @media (min-width: 1200px) {
-    .modal-container{
+    .modal-container {
         width: 70em;
         height: 70em;
     }
-    .modal-body img{
-    	width: 70em;
-	height: 60em;
+    .modal-body img {
+        width: 70em;
+        height: 60em;
     }
 }
-.overlay{
+
+.overlay {
     position: fixed;
     opacity: 0;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.5);
-    pointer-events: none;    
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
 }
-.overlay-active{
+
+.overlay-active {
     opacity: 1;
     pointer-events: all;
 }
