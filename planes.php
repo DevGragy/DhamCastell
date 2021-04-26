@@ -45,8 +45,8 @@
                             </div>
                             <div>
                                 <h3>Semanas</h3>
-                                <p>Costo: $700 MX</p>
-                                <p class='tachado'>Costo: $850 MX</p>
+                                <p>Costo: $700 Mx</p>
+                                <p class='tachado'>Costo: $850 Mx</p>
                             </div>
                     </div>
 
@@ -89,7 +89,7 @@
                             </div>
                             <div>
                                 <h3>Semanas</h3>
-                                <p>Costo: $600 MX</p>
+                                <p>Costo: $600 Mx</p>
                             </div>
                     </div>
 
@@ -99,7 +99,7 @@
                         </div>
                         <div>
                             <h3>Semanas</h3>
-                            <p>Costo: $1000 MX</p>
+                            <p>Costo: $1000 Mx</p>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
                         </div>
                         <div>
                             <h3>Semanas</h3>
-                            <p>Costo: $1500 MX</p>
+                            <p>Costo: $1500 Mx</p>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ if (document.querySelector(".btnModal")) {
         modal.style.display = "block";
         week = btn4.children[0].children[0].innerHTML;
         precio.innerHTML = "700";
-        total = "35.33";
+        total = "33.47";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";

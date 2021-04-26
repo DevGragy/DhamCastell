@@ -676,6 +676,7 @@ footer {
 
 .titulo-planes {
     font-size: 36px;
+    text-align: center;
 }
 
 .contenido-planes {
@@ -1146,6 +1147,8 @@ p {
     }
     .cuerpo-planes {
         font-size: 20px;
+        width: auto;
+        height: auto;
     }
     .imagen-planes {
         order: -1;
@@ -1156,6 +1159,7 @@ p {
     }
     .card-planes {
         margin-bottom: 60px;
+        font-size: 20px;
     }
 }
 
@@ -1381,6 +1385,8 @@ p {
     .cuerpo-planes {
         font-size: 20px;
         text-align: center;
+        width: auto;
+        height: auto;
     }
     .imagen-planes {
         order: -1;
@@ -1394,6 +1400,7 @@ p {
     }
     .card-planes {
         margin-bottom: 60px;
+        font-size: 20px;
     }
     /* FAQ */
     .section-faq {
