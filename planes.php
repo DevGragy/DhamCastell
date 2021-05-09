@@ -3,7 +3,7 @@
 <main>
             <div class="section-planes">
 
-                <div class="titulo-planes">
+                <!-- <div class="titulo-planes">
                     <h2>Reto Pre Summer</h2>
                 </div>
 
@@ -36,7 +36,7 @@
                     <div class="imagen-planes">
                         <img src="img/pinapple.jpg" alt="" />
                     </div>
-                </div>
+                </div> 
 
                 <div class="tipos-planes">
                     <div class="card-planes btnModal" id="btnModal4">
@@ -50,7 +50,7 @@
                             </div>
                     </div>
 
-                </div>
+                </div> -->
 
 
                 <div class="titulo-planes">
