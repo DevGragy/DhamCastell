@@ -13,9 +13,9 @@ if (document.querySelector(".btnModal")) {
     btn1.onclick = function () {
         modal.style.display = "block";
         week = btn1.children[0].children[0].innerHTML;
-        total = "28.70";
+        total = "30.2";
         var precio = document.querySelector("#precio");
-        precio.innerHTML = "600";
+        precio.innerHTML = "630";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
@@ -25,8 +25,8 @@ if (document.querySelector(".btnModal")) {
         modal.style.display = "block";
         week = btn2.children[0].children[0].innerHTML;
         var precio = document.querySelector("#precio");
-        precio.innerHTML = "1000";
-        total = "47.82";
+        precio.innerHTML = "1040";
+        total = "49.85";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
@@ -36,8 +36,8 @@ if (document.querySelector(".btnModal")) {
     btn3.onclick = function () {
         modal.style.display = "block";
         week = btn3.children[0].children[0].innerHTML;
-        precio.innerHTML = "1500";
-        total = "71.73";
+        precio.innerHTML = "1560";
+        total = "74.78";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
@@ -48,7 +48,7 @@ if (document.querySelector(".btnModal")) {
         modal.style.display = "block";
         week = btn4.children[0].children[0].innerHTML;
         precio.innerHTML = "700";
-        total = "33.47";
+        total = "33.56";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
