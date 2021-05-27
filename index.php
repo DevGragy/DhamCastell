@@ -530,7 +530,7 @@
 
 			<a href="planes.php">
 
-			    <img src="./img/summer.png"/>
+			    <img src="./img/body-summer.jpeg" alt='summer'/>
 
 		        </a>
 
