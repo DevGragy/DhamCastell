@@ -8,13 +8,13 @@
 
 
 
-		<!--
+		
 
 
 
                 <div class="titulo-planes">
 
-                    <h2>Reto Body Summer</h2>
+                    <h2>Reto Move Your Body</h2>
 
                 </div>
 
@@ -110,7 +110,7 @@
 
 
 
-		!-->
+		
 
 
 
