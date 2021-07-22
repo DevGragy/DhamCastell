@@ -1,4 +1,4 @@
-/*
+
 
 const btnClose = document.querySelector(".close-button");
 const modal = document.querySelector(".modal-container");
@@ -24,4 +24,3 @@ function closeModal() {
     overlay.classList.remove("overlay-active");
 }
 
-*/
