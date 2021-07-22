@@ -43,6 +43,7 @@ if (document.querySelector(".btnModal")) {
         body.style.overflow = "hidden";
     };
 
+    /*
     //Abre el modal del precio 4
     btn4.onclick = function() {
         modal.style.display = "block";
@@ -53,6 +54,7 @@ if (document.querySelector(".btnModal")) {
         body.style.height = "100%";
         body.style.overflow = "hidden";
     };
+    */
 
     span.onclick = function() {
         modal.style.display = "none";
