@@ -2872,7 +2872,7 @@ p {
 
     width: 350px;
 
-    height: 400px;
+    height: 75em;
 
     display: flex;
 
@@ -2970,33 +2970,15 @@ p {
 
 
 
-
-
-/***Mantenimiento*****/
-
-
-
-.mantenimiento img {
-
-    height: 100vh;
-
-    max-width: 100%;
-
-}
-
-
-
-
-
 /**Modal**/
 
 
 
 .modal-container {
 
-    width: 40em;
+    width: 35em;
 
-    height: 60em;
+    height: 35em;
 
     position: fixed;
 
@@ -3115,11 +3097,25 @@ p {
     pointer-events: all;
 
 }
-
-.oxxo{
-    font-size: 1.2rem
+.oxxo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.oxxo p{
+    padding-top: .5em;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.oxxo span{
+    font-weight: bold;
 }
 .oxxo img{
-    width: 2rem;
-    height: 2rem;
+    margin: 2rem 0;
+    height: 12em;
+}
+.o{
+    margin-top: 2rem;
+    font-size: 1.8rem;
 }

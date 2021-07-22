@@ -37,6 +37,7 @@
                 </div>
             </div>
         </section>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <script src ="js/contacto.js"></script>
         <script src="js/navbar.js"></script>
     <?php include 'includes/templates/footer.php' ?>
