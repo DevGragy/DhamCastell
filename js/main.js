@@ -43,16 +43,18 @@ if (document.querySelector(".btnModal")) {
 		body.style.overflow = "hidden";
 	};
 
-	//Abre el modal del precio 4
+	/* Abre el modal del precio de retos
 	btn4.onclick = function () {
 		modal.style.display = "block";
 		week = btn4.children[0].children[0].innerHTML;
-		precio.innerHTML = "650";
-		total = "32.54";
+		precio.innerHTML = "700";
+		total = "33.50";
 		body.style.position = "static";
 		body.style.height = "100%";
 		body.style.overflow = "hidden";
 	};
+	*/
+
 
 	span.onclick = function () {
 		modal.style.display = "none";
