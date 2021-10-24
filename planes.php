@@ -65,128 +65,76 @@
 
 
         <div class="titulo-planes">
-
             <h2>Planes</h2>
-
         </div>
 
-
-
         <div class="contenido-planes">
-
             <div class="cuerpo-planes">
-
                 <h3>
-
                     ¡Escoge tu tiempo de entranamiento y aprovecha todos
-
                     los beneficios!
-
                 </h3>
 
                 <ul>
-
                     <li>Encuesta inicial</li>
-
                     <li>Plan de alimentación personalizado</li>
-
                     <li>
-
                         Ajustes en el plan de alimentación cada 15 días
-
                     </li>
-
                     <li>Lista de marcas recomendadas</li>
-
                     <li>Seguimiento individual</li>
-
                     <li>
-
                         Rutina de entramiento personalizada <br> en base a
 
                         tus objetivos (En Casa o Gym)
-
                     </li>
-
                 </ul>
-
             </div>
 
             <div class="imagen-planes">
-
                 <img src="img/planes.png" alt="" />
-
             </div>
 
         </div>
-
-
 
         <div class="tipos-planes">
 
             <div class="card-planes btnModal" id="btnModal1">
-
                 <div>
-
                     <h2>4</h2>
-
                 </div>
 
                 <div>
-
                     <h3>Semanas</h3>
-
                     <p>Costo: $600 Mx</p>
-
                 </div>
-
             </div>
-
-
 
             <div class="card-planes btnModal" id="btnModal2">
-
                 <div>
-
                     <h2>8</h2>
-
                 </div>
 
                 <div>
-
                     <h3>Semanas</h3>
-
                     <p>Costo: $1000 Mx</p>
-
                 </div>
-
             </div>
 
-
-
             <div class="card-planes btnModal" id="btnModal3">
-
                 <div>
-
                     <h2>12</h2>
-
                 </div>
-
+                
                 <div>
-
                     <h3>Semanas</h3>
-
                     <p>Costo: $1500 Mx</p>
-
                 </div>
-
             </div>
 
         </div>
 
     </div>
-
-
 
     <div id="tvesModal" class="modalContainer">
 
@@ -221,18 +169,10 @@
                     inicial </p>
 
             </div>
-
         </div>
-
     </div>
 
-
-
 </main>
-
-
-
-
 
 <script
     src="https://www.paypal.com/sdk/js?client-id=Af-KUSXfxVRWwy50ZM-L7xrzM1qV-zLdhey_JW3hEPzylJbfWC1eBwvfhkHKZl42qfBZcOooh-qjBUef&disable-funding=card"
