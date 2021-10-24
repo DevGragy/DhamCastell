@@ -12,67 +12,49 @@
                 estare feliz de ayudarte.
             </p>
 
-            <button class="accordion">¿Que puedo comer en el dia?</button>
+            <button class="accordion">¿Cuánto duran los programas?</button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Depende mucho del plan que escojas, en la sección de planes podras encontrar la duración de los planes y su costo.
                 </p>
             </div>
 
-            <button class="accordion">¿Cuantas horas debo ejercitarme?</button>
+            <button class="accordion">¿Cómo puedo pagar los planes de entrenamiento?</button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Existen dos maneras, aquí mismo en el sitio web puedes pagar a través de Paypal en la sección de planes o puede ser por depósito en tiendas Oxxo.
                 </p>
             </div>
 
             <button class="accordion">
-                ¿En que momento se ven reflejados mis pagos?
+                ¿Es seguro introducir los datos de mi tarjeta en la página web?
             </button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Absolutamente SI. Mi sitio web cuenta con los protocolos de seguridad adecuados para asegurar que la información de mis clientes no sea despojada y tengan la confianza de hacer las compras desde aquí.
                 </p>
             </div>
 
-            <button class="accordion">¿Que puedo comer en el dia?</button>
+            <button class="accordion">¿Cómo puedo saber si necesito un plan?</button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Los planes se adecuan a cada tipo de persona, puesto que no todos tienen las mismas necesidades. Asi que la mejor manera es intentar mi programa y que te enamores de los resultados.
                 </p>
             </div>
 
-            <button class="accordion">¿Cuantas horas debo ejercitarme?</button>
+            <button class="accordion">¿Necesito equipo especial para entrenar?</button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    No, lo único que necesitas son muchas ganas de comenzar a crear tu nueva vida fitness, yo estaré feliz de comenzar este viaje contigo. 
                 </p>
             </div>
 
             <button class="accordion">
-                ¿En que momento se ven reflejados mis pagos?
+                Si ya hice el pago, ¿Cuándo comenzamos?
             </button>
             <div class="panel">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Una Vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail dhamcontacto@dhamcastell.com con tu nombre completo y tu numero de whatsapp para recibir tu encuesta inicial 
                 </p>
             </div>
         </section>

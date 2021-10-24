@@ -1,7 +1,7 @@
 <?php include 'includes/templates/header.php' ?>
     <main class="contenedor">
 
-        <div class="titulo-planes">
+        <div class="titulo-planes m-24">
             <h2>Power Bands</h2>
         </div>
 

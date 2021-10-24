@@ -21,9 +21,12 @@
 			<nav class="header-navbar">
 				<div class="header-inicio">
 					<a href="index.php">
-						<img src="../img/dham-logo.png" alt="" />
+						<div class="d-flex al-center">
+							<img src="../img/dham-logo.png" alt="" />
+							<h4>@dhamcastell</h4>
+						</div>
 					</a>
-					<h4>@dhamcastell</h4>
+					
 				</div>
 
 				<a href="#" class="toggle-button">
@@ -48,6 +51,10 @@
 
 						<li>
 							<a href="faq.php">F.A.Q.</a>
+						</li>
+
+                        <li>
+							<a href="power.php">P-Bands</a>
 						</li>
 					</ul>
 				</div>
@@ -318,8 +325,8 @@
 				</div>
 
 				<div class="modal-body">
-					<a href="planes.php">
-						<img src="./img/reto_move_body2.jpeg" alt="summer" />
+					<a href="power.php">
+						<img src="./img/pop-bands.jpeg" alt="pop-bands" />
 					</a>
 				</div>
 			</div>
