@@ -68,6 +68,10 @@ h5 {
 	font-family: var(--font-titulos);
 }
 
+a {
+	text-decoration: none;
+}
+
 .contenedor {
 	max-width: 1200px;
 
