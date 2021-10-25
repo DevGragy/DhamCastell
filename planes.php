@@ -160,9 +160,8 @@
 
                 <img src="https://logos-download.com/wp-content/uploads/2016/07/OXXO_logo.png" />
 
-                <p>Paga en tu oxxo mas cercano</p>
-
-                <p>Cuenta: 4152 3136 8013 3886</p>
+                <p>BBVA para Planes: 4152 3138 5802 0774</p>
+                <p>BBVA para Bandas: 4152 3138 5802 0782</p>
 
                 <p>Nota:Una Vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail
                     dhamcontacto@dhamcastell.com con tu nombre completo y tu numero de whatsapp para recibir tu encuesta

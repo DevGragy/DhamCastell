@@ -77,7 +77,7 @@
 
         <div class="tipos-planes contenedor">
 
-            <a class="card-planes btnModal soft-blue" id="btnModal1" href="https://www.instagram.com/dhamcastell/" target="_blank">
+            <a class="card-planes btnModal soft-blue" id="power1" >
                 <div>
                     <h2>01</h2>
                 </div>
@@ -88,7 +88,7 @@
                 </div>
             </a>
 
-            <a class="card-planes btnModal mid-violet" id="btnModal2" href="https://www.instagram.com/dhamcastell/" target="_blank">
+            <a class="card-planes btnModal mid-violet" id="power2" >
                 <div>
                     <h2>02</h2>
                 </div>
@@ -99,7 +99,7 @@
                 </div>
             </a>
 
-            <a class="card-planes btnModal hard-pink" id="btnModal3" href="https://www.instagram.com/dhamcastell/" target="_blank">
+            <a class="card-planes btnModal hard-pink" id="power3" >
                 <div>
                     <h2>03</h2>
                 </div>
@@ -111,11 +111,47 @@
             </a>
 
         </div>
+
+        <div id="tvesModal" class="modalContainer">
+
+        <div class="modal-content">
+
+            <div class="confirmar-plan">
+
+                <h2>Confirmar Pedido</h2>
+
+                <span class="close">X</span>
+
+            </div>
+
+            <hr class="divider" />
+
+            <p>$<span id="precio">600</span></p>
+
+            <div id="paypal"></div>
+
+            <p>o</p>
+
+            <div class="oxxo">
+
+                <img src="https://logos-download.com/wp-content/uploads/2016/07/OXXO_logo.png" />
+
+                <p>BBVA para Planes: 4152 3138 5802 0774</p>
+                <p>BBVA para Bandas: 4152 3138 5802 0782</p>
+
+                <p>Nota:Una Vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail
+                    dhamcontacto@dhamcastell.com con tu nombre completo y tu numero de whatsapp para recibir tu encuesta
+                    inicial </p>
+
+            </div>
+        </div>
+    </div>
         
     </main>
 
+    <script src="https://www.paypal.com/sdk/js?client-id=Af-KUSXfxVRWwy50ZM-L7xrzM1qV-zLdhey_JW3hEPzylJbfWC1eBwvfhkHKZl42qfBZcOooh-qjBUef&disable-funding=card" data-namespace="paypal_sdk"></script>
+    <script src='./js/bands.js'></script>
     <script src="./js/navbar.js"></script>
-    <script src="./js/faq.js"></script>
 <?php include 'includes/templates/footer.php' ?>
     </body>
 </html>
