@@ -3,7 +3,7 @@ const modal = document.querySelector(".modal-container");
 
 document.addEventListener("DOMContentLoaded", (event) => {
     btnClose.addEventListener("click", closeModal);
-    setTimeout(openModal, 3000);
+    setTimeout(openModal, 2000);
 });
 
 function openModal() {
