@@ -83,8 +83,8 @@
                 </div>
 
                 <div>
-                    <h3>Soft Blue</h3>
-                    <p>Poca resistencia</p>
+                    <h3>Power Bands</h3>
+                    <p>Envío estandar</p>
                 </div>
             </a>
 
@@ -94,22 +94,16 @@
                 </div>
 
                 <div>
-                    <h3>Mid Violet</h3>
-                    <p>Media resistencia</p>
+                    <h3>Power Bands</h3>
+                    <p>Envío express</p>
                 </div>
             </a>
 
-            <a class="card-planes btnModal hard-pink" id="power3" >
-                <div>
-                    <h2>03</h2>
-                </div>
-                
-                <div>
-                    <h3>Hard Pink</h3>
-                    <p>Alta resistencia</p>
-                </div>
-            </a>
+        </div>
 
+        <div class='callout'>
+            <h4>Nota</h4>
+            <p>Una vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail <b>dhamcontacto@dhamcastell.com</b> con tu nombre completo y tu numero de whatsapp para recibir tu encuesta inicial.</p>
         </div>
 
         <div id="tvesModal" class="modalContainer">
@@ -130,18 +124,17 @@
 
             <div id="paypal"></div>
 
-            <p>o</p>
+            <h3 class="paga-oxxo">
+            ¿No cuentas con PayPal? ¡Paga en Oxxo!
+            </h3>
 
             <div class="oxxo">
 
                 <img src="https://logos-download.com/wp-content/uploads/2016/07/OXXO_logo.png" />
+                <br />
 
-                <p>BBVA para Planes: 4152 3138 5802 0774</p>
-                <p>BBVA para Bandas: 4152 3138 5802 0782</p>
-
-                <p>Nota:Una Vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail
-                    dhamcontacto@dhamcastell.com con tu nombre completo y tu numero de whatsapp para recibir tu encuesta
-                    inicial </p>
+                <p><b>BBVA para Bandas:</b></p>
+                <p>4152 3138 5802 0782</p>
 
             </div>
         </div>

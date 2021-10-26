@@ -136,6 +136,11 @@
 
     </div>
 
+    <div class='callout'>
+            <h4>Nota</h4>
+            <p>Una vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail <b>dhamcontacto@dhamcastell.com</b> con tu nombre completo y tu numero de whatsapp para recibir tu encuesta inicial.</p>
+    </div>
+
     <div id="tvesModal" class="modalContainer">
 
         <div class="modal-content">
@@ -154,18 +159,18 @@
 
             <div id="paypal"></div>
 
-            <p>o</p>
+            <h3 class="paga-oxxo">
+            ¿No cuentas con PayPal? ¡Paga en Oxxo!
+            </h3>
 
             <div class="oxxo">
 
                 <img src="https://logos-download.com/wp-content/uploads/2016/07/OXXO_logo.png" />
+                <br/>
+                <br/>
 
-                <p>BBVA para Planes: 4152 3138 5802 0774</p>
-                <p>BBVA para Bandas: 4152 3138 5802 0782</p>
-
-                <p>Nota:Una Vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail
-                    dhamcontacto@dhamcastell.com con tu nombre completo y tu numero de whatsapp para recibir tu encuesta
-                    inicial </p>
+                <p> <b>BBVA para Planes:</b></p>
+                <p>4152 3138 5802 0774</p>
 
             </div>
         </div>
