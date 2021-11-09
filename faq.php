@@ -1,6 +1,6 @@
 <?php include 'includes/templates/header.php' ?>
 
-<section class="section-faq">
+<section class="section-faq contenedor">
             <h1>Preguntas Frecuentes</h1>
             <p>
                 En esta sección encontraras algunas de las preguntas que mas
