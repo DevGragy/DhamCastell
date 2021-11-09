@@ -103,7 +103,7 @@
 
         <div class='callout'>
             <h4>Nota</h4>
-            <p>Una vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail <b>dhamcontacto@dhamcastell.com</b> con tu nombre completo y tu numero de whatsapp para recibir tu encuesta inicial.</p>
+            <p>Una vez que hayas realizado el pago debes mandar una captura o foto del pago a mi mail <b>dhamcontacto@dhamcastell.com</b> con tu nombre completo y tu numero de whatsapp para recibir tu formulario para el envío.</p>
         </div>
 
         <div id="tvesModal" class="modalContainer">
@@ -127,6 +127,21 @@
             <h3 class="paga-oxxo">
             ¿No cuentas con PayPal? ¡Paga en Oxxo!
             </h3>
+
+            <div class='pago-deposito'>
+                <div>
+                    <h4>Envío estandar</h4>
+                    <h5>$500 Power-Bands</h5>
+                    <h5>$60 envío estandar</h5>
+                    <h5>$560 en Total!</h5>
+                </div>
+                <div>
+                    <h4>Envío express</h4>
+                    <h5>$500 Power-Bands</h5>
+                    <h5>$180 envío express</h5>
+                    <h5>$680 en Total!</h5>
+                </div>
+            </div>
 
             <div class="oxxo">
 

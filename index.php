@@ -325,8 +325,8 @@
 				</div>
 
 				<div class="modal-body">
-					<a href="power.php">
-						<img src="./img/pop-bands.jpeg" alt="pop-bands" />
+					<a href="planes.php">
+						<img src="./img/pop-dic.jpeg" alt="pop-diciembre" />
 					</a>
 				</div>
 			</div>

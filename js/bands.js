@@ -1,4 +1,4 @@
-var total = "26.62";
+var total = "27.66";
 if (document.querySelector(".btnModal")) {
 	var modal = document.getElementById("tvesModal");
 	var btn1 = document.querySelector("#power1");
@@ -11,9 +11,9 @@ if (document.querySelector(".btnModal")) {
 	btn1.onclick = function () {
 		modal.style.display = "block";
 		week = btn1.children[0].children[0].innerHTML;
-		total = "26.62";
+		total = "27.66";
 		var precio = document.querySelector("#precio");
-		precio.innerHTML = "560";
+		precio.innerHTML = "590";
 		body.style.position = "static";
 		body.style.height = "100%";
 		body.style.overflow = "hidden";
@@ -23,8 +23,8 @@ if (document.querySelector(".btnModal")) {
 		modal.style.display = "block";
 		week = btn2.children[0].children[0].innerHTML;
 		var precio = document.querySelector("#precio");
-		precio.innerHTML = "680";
-		total = "32.27";
+		precio.innerHTML = "710";
+		total = "33.29";
 		body.style.position = "static";
 		body.style.height = "100%";
 		body.style.overflow = "hidden";

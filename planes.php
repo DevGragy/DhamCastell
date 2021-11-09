@@ -6,9 +6,9 @@
 
     <div class="section-planes">
 
-        <!-- Seccion de Retos Inicio 
+        <!-- Seccion de Retos Inicio  Seccion de Retos Fin-->
         <div class="titulo-planes">
-            <h2>Reto Move Your Body 2</h2>
+            <h2>Reto Fin de Año</h2>
         </div>
 
         <div class="contenido-planes">
@@ -44,7 +44,7 @@
             </div>
 
             <div class="imagen-planes">
-                <img src="img/pinapple.jpg" alt="" />
+                <img src="img/dham-dic.jpg" alt="diciembre" class='img-reto'/>
             </div>
         </div>
 
@@ -56,12 +56,12 @@
 
                 <div>
                     <h3>Semanas</h3>
-                    <p>Costo: $700 Mx</p>
                     <p class='tachado'>Costo: $850 Mx</p>
+                    <p>Costo: $500 Mx</p>
                 </div>
             </div>
         </div>
-        Seccion de Retos Fin-->
+        
 
 
         <div class="titulo-planes">
